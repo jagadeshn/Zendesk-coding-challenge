@@ -2,6 +2,9 @@
 
 Internship Coding Challenge - Ticket Viewer
 
+Brief Overview :
+
+Developed a web application in java with maven support. The maven repository pulls in the necessary jars an hosts it, this prevents the need to add the jars psychically which will add on to the space required for the project. The java code connects to the api from Zendesk with the username password combination. The httpresponse is obtained from the HTTP GET request. The string obtained is then redirected to the JSP page. The parsing of the jsonobject is done on the jsp page and then it is displayed in the HTML table records with bootstrap support. The jsp page is run on the tomcat which then renders the page on the site.
 
 Challenge Requirements
 
@@ -12,23 +15,22 @@ Challenge Requirements
 
 
 Prerequisite Installations
-NodeJS v10.16.0 or greater
-NPM v6.9.0 or greater (At the time of making this documentation, NPM comes with the Node.js installation)
-
+1. Java 
+2. Apache Tomcat
+3. Eclipse IDE
+4. Required jars in Maven repository
 
 
 How to run (MacOS/Windows)
+
+I have created a maven supported web application .war with java which when hosted in the tomcat or any such server will open up the jsp page and display the contents of the table.
 
 Download the repository to your local machine with the following code.
 
 $ git clone https://github.com/jagadeshn/Zendesk-Coding-Challenge
 
 
-Install all npm modules with the following code.
-$ npm install
 
-Run the program with the following code.
-$ npm start
 
 Run Tests
 
