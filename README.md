@@ -4,11 +4,12 @@ Internship Coding Challenge - Ticket Viewer
 
 
 Challenge Requirements
-Connect to the Zendesk API.
-Request the tickets for your account.
-Page through tickets when more than 25 are returned.
-Display tickets in a list.
-Display individual ticket details.
+
+1. Connect to the Zendesk API.
+2. Request the tickets for your account.
+3. Page through tickets when more than 25 are returned.
+4. Display tickets in a list.
+
 
 Prerequisite Installations
 NodeJS v10.16.0 or greater
